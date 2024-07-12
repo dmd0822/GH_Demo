@@ -11,7 +11,7 @@
         //Create a method that returns the full name of the person
         public string GetFullName()
         {
-            return $"{FirstName} {LastName}";
+            return $"{LastName}, {FirstName}";
         }
 
         //create methods to create update and delete a person
