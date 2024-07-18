@@ -1,12 +1,7 @@
 public class Dog : Pet
 {
-    //create a property for Breed
-    public string Breed { get; set; }
-
-    public Dog(string name, int age, string breed) : base(name, age)
+    public Dog(string name, int age) : base(name, age)
     {
-        Breed = breed;
-
     }
 
     public void Speak()
