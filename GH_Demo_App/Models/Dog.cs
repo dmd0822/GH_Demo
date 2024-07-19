@@ -1,9 +1,5 @@
-public class Dog : Pet
+public class Dog(string name, int age) : Pet(name, age)
 {
-    public Dog(string name, int age) : base(name, age)
-    {
-    }
-
     public void Speak()
     {
         Console.WriteLine("Woof!");
