@@ -1,11 +1,13 @@
-public class Cat(string name, int age, string furColor) : Pet(name, age)
+public class Cat : Pet
 {
     //create a property for Fur Color 
     public string FurColor { get; set; }
 
-    //create a property for IsDeclawed
-    public bool IsDeclawed { get; set; }
+    public Cat(string name, int age, string furColor) : base(name, age)
+    {
+        FurColor = furColor;
 
+    }
 
     public void Speak()
     {
