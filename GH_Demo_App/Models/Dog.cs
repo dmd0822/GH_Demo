@@ -1,4 +1,4 @@
-public class Dog(string name, int age) : Pet(name, age)
+public class Dog(string name, int age, string breed) : Pet(name, age)
 {
 
     //Create a property for the breed of the dog
@@ -7,10 +7,7 @@ public class Dog(string name, int age) : Pet(name, age)
     //create a property for the dog's weight
     public int Weight { get; set; }
 
-    public Dog(string name, int age, string breed) {
-        Breed = breed;
-    }
-
+   
     public void Speak()
     {
         Console.WriteLine("Woof!");
