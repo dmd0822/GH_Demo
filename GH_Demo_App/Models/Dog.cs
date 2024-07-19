@@ -1,5 +1,6 @@
-public class Dog : Pet
+public class Dog(string name, int age) : Pet(name, age)
 {
+
     //Create a property for the breed of the dog
     public string Breed { get; set; }
 
